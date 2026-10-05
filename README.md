@@ -1,105 +1,151 @@
 # Rishabh Gupta — 3D Developer Portfolio
 
-A modern and interactive 3D developer portfolio built to showcase my development skills, experience, projects, and journey as a Full Stack Developer.
+A modern and interactive 3D developer portfolio showcasing my development journey, technical skills, experience, and projects.
 
-I customized and developed this portfolio with a focus on clean UI, responsive design, interactive 3D elements, smooth animations, and a functional contact experience.
+The portfolio is built with React and Three.js, with interactive 3D elements, responsive layouts, project showcases, and a functional contact system.
 
----
+## Live Portfolio
 
-## 👨‍💻 About Me
+**Live Website:**  
+https://rishabh-portfolio-seven-delta.vercel.app/
 
-I'm **Rishabh Gupta**, an Information Technology student and Full Stack Developer focused on building modern, responsive, and user-friendly web applications.
+## About Me
 
-I enjoy turning ideas into practical web experiences, solving problems, and continuously improving my development skills by working with modern web technologies.
+I'm **Rishabh Gupta**, a B.Tech Information Technology student and Full Stack Developer focused on building modern, responsive, and user-friendly web applications.
 
----
+I primarily work with **HTML, CSS, JavaScript, React.js, and Tailwind CSS** on the frontend while continuously strengthening my backend development skills with technologies such as **Node.js**.
 
-## 🛠️ Tech Stack
+I enjoy turning ideas into practical web experiences, solving problems, and learning new technologies to build better and more scalable applications.
 
-### Development Skills
+## Tech Stack
+
+### Frontend
 
 - HTML5
 - CSS3
 - JavaScript
 - React.js
 - Tailwind CSS
+
+### Development & Programming
+
 - Node.js
 - C++
-- Git & GitHub
+- Git
+- GitHub
 
-### Technologies Used in This Portfolio
+### 3D & Animation
 
-- React.js
-- Vite
-- Tailwind CSS
 - Three.js
 - React Three Fiber
 - React Three Drei
 - Framer Motion
+
+### Tools & Services
+
+- Vite
 - EmailJS
+- Vercel
+
+## Featured Projects
+
+### HireLens AI
+
+AI-powered resume analyzer that evaluates resumes against job descriptions, estimates ATS compatibility and job-match scores, identifies keyword gaps, and provides actionable feedback.
+
+**Technologies:** React, TypeScript, Tailwind CSS, Puter.js
+
+**Live Demo:**  
+https://hirelens-ai-lyart.vercel.app/
+
+**GitHub:**  
+https://github.com/rishabhgupta16/-ai_resume_analyzer
 
 ---
 
-## ✨ Features
+### CampusLedger
 
-- Interactive 3D developer workspace in the hero section
-- Responsive design across desktop and mobile devices
-- Personalized About section
-- Experience and education timeline
-- Interactive 3D technology showcase
-- Dedicated project showcase
-- Functional contact form powered by EmailJS
-- Interactive 3D Earth model
-- Animated star background
-- Smooth page animations using Framer Motion
-- Modern dark-themed developer interface
-- Custom content, branding, layout, and portfolio information
+Student-focused personal finance platform for tracking income and expenses, managing category budgets and savings goals, monitoring recurring payments, and analyzing spending through interactive financial insights.
+
+**Technologies:** React, Node.js, Express.js, MongoDB
+
+**Live Demo:**  
+https://campus-ledger-neon.vercel.app/
+
+**GitHub:**  
+https://github.com/rishabhgupta16/CampusLedger
 
 ---
 
-## 🚀 Getting Started
+### Weather App
 
-### Prerequisites
+Responsive weather application that fetches real-time weather data for searched locations and displays temperature, weather conditions, humidity, and wind speed through a clean interface.
 
-Make sure you have the following installed:
+**Technologies:** HTML, CSS, JavaScript, OpenWeather API
 
-- Node.js
-- npm
-- Git
+**Live Demo:**  
+https://rishabh-weather-app-six.vercel.app/
 
-### Installation
+**GitHub:**  
+https://github.com/rishabhgupta16/Whether_app/tree/main/weatherApp
 
-Clone the repository:
+## Key Features
 
-```bash
-git clone YOUR_PORTFOLIO_REPOSITORY_URL
+- Interactive 3D developer portfolio
+- Responsive design for desktop and mobile devices
+- Interactive 3D workstation model
+- Project showcase with GitHub and live demo links
+- Development experience and education timeline
+- Interactive technology stack section
+- Smooth animations and transitions
+- Functional EmailJS contact form
+- Direct GitHub and LinkedIn profile links
+- Custom personal branding and favicon
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   └── canvas/
+├── constants/
+├── hoc/
+├── utils/
+├── App.jsx
+├── index.css
+├── main.jsx
+└── styles.js
+
+public/
+└── modern_desk/
 ```
 
-Move into the project directory:
+## Getting Started
+
+### 1. Clone the repository
 
 ```bash
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/rishabhgupta16/Rishabh-Gupta-Portfolio.git
 ```
 
-Install the dependencies:
+### 2. Navigate to the project
+
+```bash
+cd Rishabh-Gupta-Portfolio
+```
+
+### 3. Install dependencies
+
+This project contains a legacy peer dependency used by the tilt component, so install dependencies using:
 
 ```bash
 npm install --legacy-peer-deps
 ```
 
-Start the development server:
+### 4. Configure environment variables
 
-```bash
-npm run dev
-```
-
-The application will run locally using Vite.
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env` file in the root directory and add your EmailJS credentials:
+Create a `.env` file in the root directory:
 
 ```env
 VITE_APP_EMAILJS_SERVICE_ID=your_service_id
@@ -107,53 +153,59 @@ VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Make sure the `.env` file is included in `.gitignore` and never commit your environment configuration to the repository.
+Do not commit your `.env` file or expose your EmailJS credentials publicly.
 
----
+### 5. Start the development server
 
-## 📂 Projects
+```bash
+npm run dev
+```
 
-The Projects section is currently being updated with my latest development work.
+Open the local URL displayed by Vite in your browser.
 
-Some of the projects that will be featured include:
+## Production Build
 
-- **HireLens AI** — AI-Powered Resume Analyzer
-- **Voice-Powered Budget Tracker**
-- **Estate** — Real Estate Application
+Create a production build using:
 
-Project screenshots, source-code links, and live demos will be added as the portfolio is finalized.
+```bash
+npm run build
+```
 
----
+The optimized production files will be generated inside the `dist` directory.
 
-## 📬 Contact
+## Deployment
 
-The portfolio includes a fully functional contact form that allows visitors to send messages directly from the website.
+The portfolio is deployed on **Vercel** and connected to the GitHub repository.
 
-Messages are handled using **EmailJS**.
+Updates pushed to the `main` branch can automatically trigger a new production deployment.
 
-For my development work, you can also find me on GitHub:
+Because of the project's dependency configuration, the Vercel install command is configured as:
 
-**GitHub:** `rishabhgupta16`
+```bash
+npm install --legacy-peer-deps
+```
 
----
-
-## 👤 Author
+## Contact
 
 **Rishabh Gupta**
 
-Full Stack Developer  
-B.Tech — Information Technology
+Full Stack Developer | B.Tech Information Technology
+
+**GitHub:**  
+https://github.com/rishabhgupta16
+
+**LinkedIn:**  
+https://www.linkedin.com/in/rishabh-gupta-dev/
+
+**Portfolio:**  
+https://rishabh-portfolio-seven-delta.vercel.app/
+
+## Acknowledgment
+
+The initial 3D portfolio concept and learning reference were inspired by the JavaScript Mastery 3D Developer Portfolio tutorial.
+
+The portfolio has since been customized with my own branding, content, development journey, technology stack, projects, 3D assets, and functionality.
 
 ---
 
-## 📌 Project Status
-
-🚧 **Currently in development**
-
-The core portfolio experience is functional. Project details, final branding, deployment links, and a few finishing touches are being completed before the production release.
-
----
-
-### Acknowledgment
-
-The initial 3D portfolio concept and learning reference were inspired by the JavaScript Mastery 3D Developer Portfolio tutorial. The portfolio has since been customized with my own content, development journey, technology stack, projects, branding, 3D assets, and functionality.
+Built and customized by **Rishabh Gupta**.
