@@ -17,72 +17,27 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Journey",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Journey" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  {
-    title: "Web Development",
-    icon: web,
-  },
-  {
-    title: "Frontend Development",
-    icon: creator,
-  },
-  {
-    title: "React Development",
-    icon: mobile,
-  },
-  {
-    title: "Backend Development",
-    icon: backend,
-  },
+  { title: "Web Development", icon: web },
+  { title: "Frontend Development", icon: creator },
+  { title: "React Development", icon: mobile },
+  { title: "Backend Development", icon: backend },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Git / GitHub",
-    icon: git,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "React JS", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Git / GitHub", icon: git },
+  { name: "Node JS", icon: nodejs },
+  { name: "C++", icon: cpp },
 ];
 
 const experiences = [
@@ -138,22 +93,10 @@ const projects = [
     description:
       "AI-powered resume analyzer that evaluates resumes against job descriptions, estimates ATS compatibility and job-match scores, identifies keyword gaps, and provides actionable feedback.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "puter.js",
-        color: "blue-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "puter.js", color: "blue-text-gradient" },
     ],
     image: hirelens,
     source_code_link:
@@ -161,28 +104,15 @@ const projects = [
     live_demo_link:
       "https://hirelens-ai-lyart.vercel.app/",
   },
-
   {
     name: "CampusLedger",
     description:
       "Student-focused personal finance platform for tracking income and expenses, managing category budgets and savings goals, monitoring recurring payments, and analyzing spending through interactive financial insights.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "express",
-        color: "blue-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "node.js", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "express", color: "blue-text-gradient" },
     ],
     image: campusledger,
     source_code_link:
@@ -190,34 +120,21 @@ const projects = [
     live_demo_link:
       "https://campus-ledger-neon.vercel.app/",
   },
-
   {
     name: "Weather App",
     description:
       "Responsive weather application that fetches real-time weather data for searched locations and displays temperature, weather conditions, humidity, and wind speed through a clean interface.",
     tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weather-api",
-        color: "blue-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+      { name: "weather-api", color: "blue-text-gradient" },
     ],
     image: weatherapp,
     source_code_link:
-      "https://github.com/rishabhgupta16/Whether_app",
+      "https://github.com/rishabhgupta16/Whether_app/tree/main/weatherApp",
     live_demo_link:
-      "https://weather-app-xi-eight-23.vercel.app/",
+      "https://rishabh-weather-app-six.vercel.app/",
   },
 ];
 
