@@ -2,12 +2,12 @@
 
 A modern and interactive 3D developer portfolio showcasing my development journey, technical skills, experience, and projects.
 
-The portfolio is built with React and Three.js, with interactive 3D elements, responsive layouts, project showcases, and a functional contact system.
+The portfolio is built with React and Three.js, featuring interactive 3D elements, responsive layouts, project showcases, smooth animations, and a functional contact system.
 
 ## Live Portfolio
 
 **Live Website:**  
-https://rishabh-portfolio-seven-delta.vercel.app/
+https://rishabhgupta-dev.vercel.app/
 
 ## About Me
 
@@ -143,7 +143,7 @@ This project contains a legacy peer dependency used by the tilt component, so in
 npm install --legacy-peer-deps
 ```
 
-### 4. Configure environment variables
+### 4. Configure Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -153,9 +153,9 @@ VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Do not commit your `.env` file or expose your EmailJS credentials publicly.
+Do not commit the `.env` file or expose your EmailJS credentials publicly.
 
-### 5. Start the development server
+### 5. Start the Development Server
 
 ```bash
 npm run dev
@@ -198,7 +198,7 @@ https://github.com/rishabhgupta16
 https://www.linkedin.com/in/rishabh-gupta-dev/
 
 **Portfolio:**  
-https://rishabh-portfolio-seven-delta.vercel.app/
+https://rishabhgupta-dev.vercel.app/
 
 ## Acknowledgment
 
